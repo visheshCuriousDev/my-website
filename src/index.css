@@ -1,0 +1,7 @@
+html,body {
+  box-sizing: border-box;
+  color: #2b2929;
+}
+.content, .main-header {
+  padding: 5px;
+}
