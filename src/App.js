@@ -1,6 +1,6 @@
 import './App.css';
-import {Header} from './components/header';
-import {MiniBytes} from './components/mini-bytes';
+import Header from './components/header';
+import MiniBytes from './components/mini-bytes';
 
 function App() {
   return (
