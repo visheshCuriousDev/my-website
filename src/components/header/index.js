@@ -1,4 +1,5 @@
 import './header.css';
+import {BrowserRouter as Router, Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -8,10 +9,21 @@ const Header = () => {
             </div>
             <div className="nav">
                 <ul className="nav-list">
-                    <li className="active"> Mini bytes </li>
-                    <li> Projects </li>
-                    <li> Resume </li>
-                    <li> Contact me </li>
+                    <li className="active">
+                        <Link to="/"> Mini bytes </Link>
+                    </li>
+                    <li>
+                        <Link to="/projects"> Projects </Link>
+                    </li>
+                    <li>
+                        <Link to="/art"> Blogs / Acticles </Link>
+                    </li>
+                    <li>
+                        <Link to="/resume"> Resume </Link>
+                    </li>
+                    <li>
+                        <Link to="/contact"> Contact me </Link>
+                    </li>
                 </ul>
             </div>
         </header>
