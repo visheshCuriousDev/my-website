@@ -1,7 +1,6 @@
 .main-header {
   display: flex;
   flex-direction: row;
-  padding: 5px 40px;
   border-radius: 50px;
   /* Old orange color header (Removed as its old style)
       background-color: #ff5252;
