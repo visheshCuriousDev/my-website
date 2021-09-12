@@ -29,6 +29,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn deploy`
+
+Build the app for production and deploys it in firebase. Ofcourse you gotta be logged in firebase and setup the project
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
