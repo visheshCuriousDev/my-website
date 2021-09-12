@@ -2,15 +2,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* Left project list */
 .project-circle {
     min-width: 40ch;
-}
-.project-details {
-    flex: 1 1 70%;
-    min-width: 70ch;
-}
-.project-circle {
     list-style-type: none;
+    padding-left: 0px;
 }
 .project-circle li{
     word-wrap: break-word;
@@ -34,4 +30,9 @@
 }
 .project-circle li:nth-child(5){
     margin-left: 20px;
+}
+/* Right project details */
+.project-details {
+    flex: 1 1 70%;
+    min-width: 70ch;
 }
