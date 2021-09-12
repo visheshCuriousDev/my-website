@@ -3,12 +3,25 @@
     flex-wrap: wrap;
 }
 .project-circle {
-    flex: 1 1 20%;
-    min-width: 20ch;
+    min-width: 40ch;
+}
+.project-details {
+    flex: 1 1 70%;
+    min-width: 70ch;
+}
+.project-circle {
+    list-style-type: none;
 }
 .project-circle li{
     word-wrap: break-word;
-    padding: 10px 0px;
+    margin: 5px 0px;
+    padding: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+.project-circle li.active, .project-circle li:hover {
+    background-color: #41b218;
+    background-image: linear-gradient(to right, #90df73 10%, #ffffff 80%);
+    border-radius: 50px;
 }
 .project-circle li:nth-child(2){
     margin-left: 20px;

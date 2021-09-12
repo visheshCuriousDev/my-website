@@ -22,7 +22,7 @@ const Projects = () => {
                     <ul className="project-circle">
                         {ProjectList.map(project => {
                             return (
-                                <li onClick={() => changeProject(project)}> {project.name} </li>
+                                <li className={selectedProject && selectedProject.name === project.name ? 'active': ''} onClick={() => changeProject(project)}> {project.name} </li>
                             )
                         })}
                     </ul>
