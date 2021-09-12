@@ -12,10 +12,10 @@ const Header = () => {
             </div>
             <div className="nav">
                 <ul className="nav-list">
-                    <li className={(location.pathname === "/") ? "active" : ""}>
-                        <Link to="/"> Mini bytes </Link>
+                    <li className={(location.pathname === "/mini-bytes") ? "active" : ""}>
+                        <Link to="/mini-bytes"> Mini bytes </Link>
                     </li>
-                    <li className={(location.pathname === "/projects") ? "active" : ""}>
+                    <li className={(location.pathname === "/" || location.pathname === "/projects") ? "active" : ""}>
                         <Link to="/projects"> Projects </Link>
                     </li>
                     <li className={(location.pathname === "/art") ? "active" : ""}>

@@ -17,7 +17,7 @@ function App() {
             <Switch>
               <Route exact path='/'>
                 <Suspense fallback={<Loading />}>
-                  <MiniBytes />
+                  <Projects />
                 </Suspense>
               </Route>
               <Route path='/projects'>
