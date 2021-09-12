@@ -4,7 +4,7 @@ const Loading = ({show = true}) => {
     return (
         <div>
             {show ? (
-                <div class="loading-container">
+                <div className="loading-container">
                     <img src="rocket-loader.gif" alt="Loading..." />
                 </div>
             ) : ''}
