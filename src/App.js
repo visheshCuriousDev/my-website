@@ -1,9 +1,12 @@
 import './App.css';
-import Header from './components/header';
-import MiniBytes from './components/mini-bytes';
-import Projects from './components/projects';
-import NotFound from './utility/404'
+
+import React, {Suspense} from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from './components/header';
+import Loading from './utility/loading';
+const MiniBytes = React.lazy(() => import('./components/mini-bytes'));
+const Projects = React.lazy(() => import('./components/projects'));
+const NotFound = React.lazy(() => import('./utility/404'));
 
 function App() {
   return (
@@ -13,13 +16,19 @@ function App() {
         <section className="content">
             <Switch>
               <Route exact path='/'>
-                <MiniBytes />
+                <Suspense fallback={<Loading />}>
+                  <MiniBytes />
+                </Suspense>
               </Route>
               <Route path='/projects'>
-                <Projects />
+                <Suspense fallback={<Loading />}>
+                  <Projects />
+                </Suspense>
               </Route>
               <Route path='*'>
-                <NotFound />
+                <Suspense fallback={<Loading />}>
+                  <NotFound />
+                </Suspense>
               </Route>
             </Switch>
         </section>
