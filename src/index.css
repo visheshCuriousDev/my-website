@@ -9,6 +9,11 @@ html,body {
   padding: 10px 40px;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
+}
+.my-btn:hover {
+  text-decoration: none;
+  color: inherit;
 }
 .btn-transparent {
   background-color: transparent;

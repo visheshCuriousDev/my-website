@@ -22,9 +22,9 @@ const Header = () => {
                         <Link to="/contact"> Contact me </Link>
                     </li>
                 </ul>
-                <span className="my-btn btn-transparent btn-resume">
-                    Resume <i className="fa fa-file-download" aria-hidden="true"></i>
-                </span>
+                <a className="my-btn btn-transparent btn-resume" href='https://drive.google.com/file/d/1SbTbaX9PfHPdRaimZp4CZzFZTeetwU41/view?usp=sharing' target="__blank">
+                    Resume
+                </a>
             </div>
             <div className="nav nav-mobile">
                 <i className="fa fa-hamburger" aria-hidden="true"></i>

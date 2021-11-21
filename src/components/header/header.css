@@ -41,6 +41,12 @@
   font-weight: 600;
   transition-duration: 0.3s;
 }
+.nav-list li:hover {
+  color: #B2F4DC;
+}
+.nav-list li:active {
+  color: #B2F4DC;
+}
 /* Resume button */
 .btn-resume {
   color: #ffffff;
