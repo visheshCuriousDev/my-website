@@ -5,3 +5,13 @@ html,body {
 .content, .main-header {
   padding: 5px;
 }
+.my-btn {
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.my-btn:hover {
+  color: initial !important;
+}
+.btn-transparent {
+  background-color: transparent;
+}
