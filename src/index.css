@@ -8,10 +8,11 @@ html,body {
 .my-btn {
   padding: 10px 40px;
   border-radius: 5px;
-}
-.my-btn:hover {
-  color: initial !important;
+  cursor: pointer;
 }
 .btn-transparent {
   background-color: transparent;
+}
+.btn-transparent:hover {
+  background: rgba(255, 255, 255, 0.2);
 }

@@ -46,3 +46,29 @@
   color: #ffffff;
   border: 1px solid #ffffff;
 }
+.btn-resume .fa {
+  color: #ffffff;
+  margin-left: 2px;
+}
+
+/* Mobile nav */
+.nav-mobile {
+  display: none;
+}
+.fa-hamburger {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+/* Header responsive styles */
+@media only screen and (max-width: 1000px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+  }
+}

@@ -10,7 +10,7 @@ const Header = () => {
             <div className="logo">
                 <img src="Group 96.png" alt="My logo"></img>
             </div>
-            <div className="nav">
+            <div className="nav nav-desktop">
                 <ul className="nav-list">
                     <li className={(location.pathname === "/mini-bytes") ? "active" : ""}>
                         <Link to="/mini-bytes"> My Work </Link>
@@ -22,9 +22,12 @@ const Header = () => {
                         <Link to="/contact"> Contact me </Link>
                     </li>
                 </ul>
-                <button className="my-btn btn-transparent btn-resume">
-                    Resume <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
-                </button>
+                <span className="my-btn btn-transparent btn-resume">
+                    Resume <i className="fa fa-file-download" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div className="nav nav-mobile">
+                <i className="fa fa-hamburger" aria-hidden="true"></i>
             </div>
         </header>
     )
