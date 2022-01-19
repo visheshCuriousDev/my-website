@@ -1,0 +1,28 @@
+.width-algo div {
+    display: inline-block;
+    max-width: 400px;
+    margin-left: 10px;
+}
+.width-algo div:first-child {
+    color: red !important;
+    margin-left: 0px;
+}
+h4 {
+    background-color: peachpuff;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+.fit-content h4{
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.no-fit-content-ex1 h4{
+    display: table;
+}
+.no-fit-content-ex2 h4{
+    min-width: min-content;
+    max-width: max-content;
+}
+.no-fit-content-ex3 h4{
+    display: inline-block;
+}
