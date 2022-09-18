@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Installation
+`npm i` should work but incase it does not. Remove react-typed and do `npm i`. Then install react-typed seperately `npm install react-typed --legacy-peer-deps`.
+
 ## Available Scripts
 
 In the project directory, you can run:

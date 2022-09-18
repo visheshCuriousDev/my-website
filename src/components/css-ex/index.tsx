@@ -6,14 +6,14 @@ const Workshop = React.lazy(() => import('./workshop'));
 
 function CssEx() {
   return (
-      <section class="css-ex">
-        <div class="section">
+      <section className="css-ex">
+        <div className="section">
           <ImpPoints></ImpPoints>
         </div>
-        <div class="section">
+        <div className="section">
           <WidthAlgo></WidthAlgo>
         </div>
-        <div class="section">
+        <div className="section">
           <Workshop></Workshop>
         </div>
       </section>
