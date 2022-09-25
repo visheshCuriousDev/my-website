@@ -6,11 +6,13 @@ import {
   JournalText,
   Mailbox,
   List,
+  XLg
 } from "react-bootstrap-icons";
 import { useDispatch } from "react-redux";
 import {
   changePageSection,
   getSection,
+  isNavbarOpened,
   toggleNavbar,
 } from "../../features/slice/headerSlice";
 import { pageSections } from "../../utility/constants";
@@ -19,6 +21,7 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const dispatch = useDispatch();
   const selectedSection = useSelector(getSection);
+  const navbarOpened = useSelector(isNavbarOpened);
 
   const toggleMenuSlider = () => {
     dispatch(toggleNavbar());
@@ -32,8 +35,14 @@ const Header = () => {
 
   return (
     <>
-      <i className="mobile-nav-toggle d-xl-none">
-        <List size={20} onClick={toggleMenuSlider} />
+      <i className="mobile-nav-toggle d-xl-none" onClick={toggleMenuSlider} >
+        {
+          navbarOpened ? (
+            <XLg size={20}/>
+          ) : (
+            <List size={20}/>
+          )
+        }
       </i>
       <header id="header" className="d-flex flex-column justify-content-center">
         <nav id="navbar" className="navbar nav-menu">
