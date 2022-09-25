@@ -26,6 +26,7 @@ const Header = () => {
 
   const navClick = (sectionName: string): undefined => {
     dispatch(changePageSection(sectionName));
+    dispatch(toggleNavbar());
     return;
   };
 
