@@ -8,12 +8,7 @@ const About = () => {
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>About</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
+            <p>Never give up !! Make a bold statement !!</p>
           </div>
 
           <div className="row">
@@ -25,10 +20,12 @@ const About = () => {
               />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
-              <h3>UI/UX Designer &amp; Web Developer.</h3>
+              <h3>Full stack Web Developer.</h3>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I can build web applications with API servers, user interface, cloud deployment, CI/CD.
+                I have advanced proficiency in RectJS, HTML, CSS, Angular2-8,
+                Typescript, NodeJS, ES6. I also have a solid foundation in cloud
+                application like AWS cloudfront, AWS S3, Firebase, etc.
               </p>
               <div className="row">
                 <div className="col-lg-6">
@@ -73,15 +70,6 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-              <p>
-                Officiis eligendi itaque labore et dolorum mollitia officiis
-                optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                consectetur qui quia repellendus itaque neque. Aliquid amet
-                quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                culpa magni laudantium dolores.
-              </p>
             </div>
           </div>
         </div>
