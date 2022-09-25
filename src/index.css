@@ -197,3 +197,8 @@ section {
     transform: rotate(360deg);
   }
 }
+
+.green-highlight {
+  color: #2ed070;
+  font-weight: 800;
+}

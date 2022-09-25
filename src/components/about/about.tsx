@@ -1,6 +1,17 @@
-import React from "react";
+import {
+  ChevronRight
+} from "react-bootstrap-icons";
+import "./about.css"
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const About = () => {
+
+  const getAge = () => {
+    var ageDifMs = Date.now() - new Date("1995-10-10").getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+
   return (
     <>
       {/* <!-- ======= About Section ======= --> */}
@@ -23,49 +34,41 @@ const About = () => {
               <h3>Full stack Web Developer.</h3>
               <p className="fst-italic">
                 I can build web applications with API servers, user interface, cloud deployment, CI/CD.
-                I have advanced proficiency in RectJS, HTML, CSS, Angular2-8,
-                Typescript, NodeJS, ES6. I also have a solid foundation in cloud
-                application like AWS cloudfront, AWS S3, Firebase, etc.
+                I have advanced proficiency in <span className="green-highlight">RectJS, HTML, CSS, Angular2-8,
+                Typescript, NodeJS, ES6</span>. I also have a solid foundation in cloud
+                application like <span className="green-highlight">AWS cloudfront, AWS S3, Firebase, etc</span>.
               </p>
               <div className="row">
                 <div className="col-lg-6">
-                  <ul>
+                  <ul className="about-list">
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Birthday:</strong> <span>1 May 1995</span>
+                      <ChevronRight size={16} />
+                      <strong>Birthday:</strong> <span>10 Oct 1995</span>
                     </li>
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Website:</strong> <span>www.example.com</span>
+                      <ChevronRight size={16} />
+                      <strong>Website:</strong> <span>https://visheshdev.in/</span>
                     </li>
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Phone:</strong> <span>+123 456 7890</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>City:</strong> <span>New York, USA</span>
+                      <ChevronRight size={16} />
+                      <strong>City:</strong> <span>Chennai, India</span>
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Age:</strong> <span>30</span>
+                      <ChevronRight size={16} />
+                      <strong>Age:</strong> <span>{getAge()}</span>
                     </li>
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Degree:</strong> <span>Master</span>
+                      <ChevronRight size={16} />
+                      <strong>Degree:</strong> <span>Bachelor Degree</span>
                     </li>
                     <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>PhEmailone:</strong>{" "}
-                      <span>email@example.com</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Freelance:</strong> <span>Available</span>
+                      <ChevronRight size={16} />
+                      <strong>Email:</strong>{" "}
+                      <span>contact@visheshdev.in</span>
                     </li>
                   </ul>
                 </div>
@@ -82,10 +85,7 @@ const About = () => {
           <div className="section-title">
             <h2>Skills</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Skills earned over <span className="green-highlight">5+ years</span> of experience building various applications
             </p>
           </div>
 
@@ -93,94 +93,67 @@ const About = () => {
             <div className="col-lg-6">
               <div className="progress">
                 <span className="skill">
-                  HTML <i className="val">100%</i>
+                  ReactJs <i className="val">100%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={100}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
               </div>
 
               <div className="progress">
                 <span className="skill">
-                  CSS <i className="val">90%</i>
+                  Javascript <i className="val">100%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={90}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
               </div>
 
               <div className="progress">
                 <span className="skill">
-                  JavaScript <i className="val">75%</i>
+                  Typescript <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={75}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
+                  HTML &amp; CSS <i className="val">90%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
+                  WordPress/CMS <i className="val">50%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={50} />
               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="progress">
                 <span className="skill">
-                  PHP <i className="val">80%</i>
+                  NodeJS <i className="val">100%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={80}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
               </div>
 
               <div className="progress">
                 <span className="skill">
-                  WordPress/CMS <i className="val">90%</i>
+                  MySQL <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={90}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
               </div>
 
               <div className="progress">
                 <span className="skill">
-                  Photoshop <i className="val">55%</i>
+                  NoSQL <i className="val">60%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow={55}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  ></div>
-                </div>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={60} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
+                  DevOps (AWS / CI / CD / Firebase) <i className="val">75%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={75} />
               </div>
             </div>
           </div>
