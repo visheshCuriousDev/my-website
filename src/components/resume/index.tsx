@@ -1,4 +1,4 @@
-import React from "react";
+import "./resume.css";
 
 const Resume = () => {
   return (
@@ -7,58 +7,49 @@ const Resume = () => {
 
         <div className="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div className="row">
           <div className="col-lg-6">
             <h3 className="resume-title">Sumary</h3>
             <div className="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>Vishesh M</h4>
+              <p><em>Innovative and deadline-driven Web Developer with 5+ years of experience developing applications from initial concept to final, polished deliverable.</em></p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Chennai, Tamil Nadu, Chennai - 600122</li>
+                <li>contact@visheshdev.in</li>
               </ul>
             </div>
 
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div className="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Bachelor of Technology</h4>
+              <h5>2013 - 2017</h5>
+              <p><em>Prathyusha Engineering College, Thirvallur, Tamil Nadu</em></p>
+              <p> Completed by Bachelor of Technology Degree with frist class affliated under Anna University.</p>
             </div>
           </div>
           <div className="col-lg-6">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Senior programmer</h4>
+              <h5>2017 - 2022</h5>
+              <p><em>SRP Tools, Chennai, Tamil Nadu, India </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Worked with a variety of different languages, frameworks, and content management systems such as JavaScript, TypeScript, React, Node.js, etc.</li>
+                <li>Develop and deploy to the latest cloud platforms with CI/CD such as AWS CloudFront, GIT, EC2, Firebase, etc.</li>
+                <li>Communicate and collaborate with multi-disciplinary teams of engineers, designers, producers, clients, and stakeholders on a daily basis.</li>
+                <li>Oversee the efficient use of production projects. Lead teams with 5-6 members on overseas projects.</li>
               </ul>
             </div>
             <div className="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Senior consultant developer</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Asendas IT park, Tamarni, Chennai, Tamil Nadu, India</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Working as fullstack dev in JavaScript, TypeScript, React, Node.js, ionic, etc.</li>
+                <li>Develop and deploy to the latest cloud platforms with CI/CD such as AWS CloudFront, GIT, Jenkins.</li>
+                <li>Mentoring team with 5-6 members on a new healthcare start up.</li>
               </ul>
             </div>
           </div>
