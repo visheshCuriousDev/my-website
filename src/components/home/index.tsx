@@ -9,8 +9,12 @@ import Resume from '../resume';
 import Experience from '../experience';
 import OtherWorks from '../other-works';
 import Contact from '../contact/contact';
+import { isNavbarOpened } from '../../features/slice/headerSlice';
+import { useSelector } from 'react-redux';
 
 const Home = () => {
+
+    const navbar = useSelector(isNavbarOpened);
 
     useEffect(() => {
         Aos.init({
@@ -22,7 +26,7 @@ const Home = () => {
     }, []);
 
     return (
-        <>
+        <div className={`body ${navbar ? 'mobile-nav-active' : ''} `}>
             <Header />
             <Hero />
             <main id="main">
@@ -32,7 +36,7 @@ const Home = () => {
                 <OtherWorks />
                 <Contact />
             </main>
-        </>
+        </div>
     );
 }
 
