@@ -24,40 +24,40 @@ const Hero = () => {
         </p>
         <div className="social-links">
           <a
-            href="https://www.linkedin.com/in/vishesh-raju-304a99bb/"
+            href="https://www.linkedin.com/in/vishesh-m-304a99bb"
             rel="noreferrer"
             target="_blank"
             className="linkedin"
           >
-            <Linkedin title="Linkedin profile" />
+            <Linkedin title="Linkedin profile" className="icons" />
           </a>
           <a
             href="https://github.com/visheshCuriousDev"
             rel="noreferrer"
             target="_blank"
             className="linkedin">
-            <Github title="Github profile" />
+            <Github title="Github profile" className="icons" />
           </a>
           <a
             href="https://stackoverflow.com/users/3649118/visheshraju"
             rel="noreferrer"
             target="_blank"
             className="linkedin">
-            <StackOverflow title="Stackoverflow profile" />
+            <StackOverflow title="Stackoverflow profile" className="icons" />
           </a>
           <a
             href="https://dev.to/vishesh"
             rel="noreferrer"
             target="_blank"
             className="linkedin">
-            <CodeSlash title="Dev blog" />
+            <CodeSlash title="Dev blog" className="icons" />
           </a>
           <a
             href="https://www.instagram.com/visheshraju1/"
             rel="noreferrer"
             target="_blank"
             className="linkedin">
-            <Instagram title="Instagram" />
+            <Instagram title="Instagram" className="icons" />
           </a>
         </div>
       </div>

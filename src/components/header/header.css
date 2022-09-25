@@ -15,7 +15,7 @@
 @media (max-width: 992px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #c6dace;
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
@@ -66,9 +66,9 @@
   transition: 0.3s;
 }
 
-.nav-menu a i,
-.nav-menu a:focus i {
-  font-size: 20px;
+.nav-menu a .icons,
+.nav-menu a .icons:focus {
+  fill: #45505b;
 }
 
 .nav-menu a span,
@@ -86,7 +86,7 @@
   .nav-menu a span,
   .nav-menu a:focus span {
     display: none;
-    color: #fff;
+    color: #c6dace;
   }
 }
 
@@ -94,21 +94,28 @@
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
-  color: #fff;
+  color: #c6dace;
   background: #0563bb;
+}
+
+.nav-menu a:hover .icons,
+.nav-menu .active .icons,
+.nav-menu .active:focus .icons,
+.nav-menu li:hover > a {
+  fill: #c6dace;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover > a span {
-  color: #fff;
+  color: #c6dace;
 }
 
 .nav-menu a:hover,
 .nav-menu li:hover > a {
   width: 100%;
-  color: #fff;
+  color: #c6dace;
 }
 
 .nav-menu a:hover span,
@@ -148,6 +155,6 @@
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #fff;
+  color: #c6dace;
   background-color: #0563bb;
 }

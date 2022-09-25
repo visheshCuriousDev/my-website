@@ -4,7 +4,7 @@
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("/public/img/hero-bg.jpeg") top right no-repeat;
+    background: url("/public/img/hero-bg-plain.png") top right no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -17,12 +17,11 @@
   
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100vh;
+    background: url("/public/img/triangles.png") top right no-repeat;
+    background-size: cover;
     position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
   }
   
   #hero h1 {
@@ -30,18 +29,18 @@
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #45505b;
+    color: #c6dace;
   }
   
   #hero p {
-    color: #45505b;
+    color: #c6dace;
     margin: 15px 0 0 0;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
   }
   
   #hero p span {
-    color: #0563bb;
+    color: #39B54A;
     letter-spacing: 1px;
   }
   
@@ -52,14 +51,18 @@
   #hero .social-links a {
     font-size: 24px;
     display: inline-block;
-    color: #45505b;
     line-height: 1;
     margin-right: 20px;
+  }
+
+  #hero a .icons {
+    font-size: 24px;
+    fill: #c6dace;
     transition: 0.3s;
   }
   
-  #hero .social-links a:hover {
-    color: #0563bb;
+  #hero .social-links a .icons:hover {
+    fill: #39B54A;
   }
   
   @media (max-width: 992px) {

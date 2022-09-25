@@ -17,31 +17,31 @@ const Header = () => {
           <ul>
             <li>
               <a href="#hero" className="nav-link scrollto active">
-                <HouseHeart title="Home" size={20}></HouseHeart>
+                <HouseHeart title="Home" size={20} className="icons"></HouseHeart>
                 <span>Home</span>
               </a>
             </li>
             <li>
               <a href="#about" className="nav-link scrollto">
-                <Person title="About" size={20}></Person>
+                <Person title="About" size={20} className="icons"></Person>
                 <span>About</span>
               </a>
             </li>
             <li>
               <a href="#resume" className="nav-link scrollto">
-                <FileText title="Resume" size={20}></FileText>
+                <FileText title="Resume" size={20} className="icons"></FileText>
                 <span>Resume</span>
               </a>
             </li>
             <li>
               <a href="#works" className="nav-link scrollto">
-                <JournalText title="Portfolio" size={20}></JournalText>
+                <JournalText title="Portfolio" size={20} className="icons"></JournalText>
                 <span>Portfolio</span>
               </a>
             </li>
             <li>
               <a href="#contact" className="nav-link scrollto">
-                <Mailbox title="Contact" size={20}></Mailbox>
+                <Mailbox title="Contact" size={20} className="icons"></Mailbox>
                 <span>Contact</span>
               </a>
             </li>
