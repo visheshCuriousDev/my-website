@@ -38,9 +38,9 @@ const Header = () => {
       <i className="mobile-nav-toggle d-xl-none" onClick={toggleMenuSlider} >
         {
           navbarOpened ? (
-            <XLg size={20}/>
+            <XLg size={24} fill={"#0E243A"}/>
           ) : (
-            <List size={20}/>
+            <List size={24} fill={"#0E243A"}/>
           )
         }
       </i>

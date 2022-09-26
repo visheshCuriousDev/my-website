@@ -1,7 +1,12 @@
-import {
-  ChevronRight
-} from "react-bootstrap-icons";
 import "./about.css"
+import {
+  ChevronRight,
+  Globe2,
+  GeoAltFill,
+  PersonFill,
+  FileCheckFill,
+  EnvelopeFill
+} from "react-bootstrap-icons";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const About = () => {
@@ -42,32 +47,31 @@ const About = () => {
                 <div className="col-lg-6">
                   <ul className="about-list">
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>Birthday:</strong> <span>10 Oct 1995</span>
+                      <img src="/icons/birthday-cake.png" alt="" />
+                      <span>10 Oct 1995</span>
                     </li>
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>Website:</strong> <span>https://visheshdev.in/</span>
+                      <Globe2 size={22} />
+                      <span>https://visheshdev.in/</span>
                     </li>
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>City:</strong> <span>Chennai, India</span>
+                      <GeoAltFill size={22} />
+                      <span>Chennai, India</span>
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
-                  <ul>
+                  <ul className="about-list">
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>Age:</strong> <span>{getAge()}</span>
+                      <PersonFill size={22} />
+                      <span>{getAge()}</span>
                     </li>
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>Degree:</strong> <span>Bachelor Degree</span>
+                      <FileCheckFill size={22} />
+                      <span>Bachelor Degree</span>
                     </li>
                     <li>
-                      <ChevronRight size={16} />
-                      <strong>Email:</strong>{" "}
+                      <EnvelopeFill size={22} />
                       <span>contact@visheshdev.in</span>
                     </li>
                   </ul>
