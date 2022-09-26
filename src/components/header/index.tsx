@@ -6,7 +6,8 @@ import {
   JournalText,
   Mailbox,
   List,
-  XLg
+  XLg,
+  PcDisplay
 } from "react-bootstrap-icons";
 import { useDispatch } from "react-redux";
 import {
@@ -77,6 +78,19 @@ const Header = () => {
                 }`}>
                 <FileText title="Resume" size={20} className="icons"></FileText>
                 <span>Resume</span>
+              </a>
+            </li>
+            <li onClick={() => navClick(pageSections.experience)}>
+              <a href="#experience"
+                className={`nav-link scrollto ${
+                  selectedSection === pageSections.experience ? "active" : ""
+                }`}>
+                <PcDisplay
+                  title="Experience"
+                  size={20}
+                  className="icons"
+                ></PcDisplay>
+                <span>Experience</span>
               </a>
             </li>
             <li onClick={() => navClick(pageSections.portfolio)}>

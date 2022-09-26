@@ -1,12 +1,22 @@
-[
+export const WorkedProjectData = [
+    {
+        "name": "Healthcare shift booking application **",
+        "description": "This is a US based healthcare application. Health care professionals (Nurses, RNA, CNA, etc.) can register and book shifts that are added by facilities (Hospitals / Care centers).",
+        "image": "",
+        "tags": [ "ReactJS", "Ionic", "NodeJS", "AWS DevOps" ],
+        "highlights": [
+            "Created a TDD(Technical Design Document) for new microservice and implementing the same",
+            "Learning how to setup and implement CI/CD and automated deployments",
+            "Learing industry best practices like code reviews, pair programming, srint planing, mentoring and sharing experience wiht team and organisation"
+        ]
+    },
     {
         "name": "Cryptocurrency trading application",
         "description": "This is a global cryptocurrency trading platform. Users can register, perform KYC and buy or sell or convert into multiple cryptocurrencies.",
         "image": "",
-        "duration": "Currently working",
-        "tags": [ "ReactJS", "Project Lead", "AWS S3", "AWS Cloudfront" ],
+        "duration": "6 months",
+        "tags": [ "ReactJS", "Project Lead", "AWS S3 & Cloudfront" ],
         "highlights": [
-            "Working as a front-end <b>React JS</b> programmer",
             "Implemented a complex <b>refresh token logic</b> inside a <b>HTTP middileware</b>. Made it work for even simultaneous HTTP requests",
             "Implemented the aadhaar card third party integration that made the KYC step quicker",
             "Planned project execution and timelines as per dependencies",
@@ -17,12 +27,11 @@
         "name": "Telehealth application",
         "description": "US based medical application. It shows heart / lung recordings of a patients along with few questions asked to the patient. The admins can manage all patients, doctors and their appointments here",
         "image": "",
-        "duration": "Currently working",
+        "duration": "1.5 years",
         "tags": [ "Angular 8", "Project Lead", "AWS cloudfront", "AWS SES", "AWS lambda", "AWS S3" ],
         "highlights": [
-            "Working as a front-end <b>Angular 8</b> programmer",
             "Appreciated by client over work, ownership and clear communication",
-            "Reduced 100% of validation and form errors by creating <b>reusable components</b> in the framework and setup standards together with team-members",
+            "<b>Reduced 100%</b> of validation and form errors by creating <b>reusable components</b> in the framework and setup standards together with team-members",
             "Converted existing <b>audio processing</b> code in <b>C to JS</b> to filter and hear sound in the web application",
             "Integrated <b>Twilio video call</b> feature in the angular application"
         ]
@@ -49,10 +58,9 @@
         "duration": "3 years",
         "tags": [ "NodeJS", "Angular 2-4", "Programmer", "AWS SES/SNS", "AWS Lambda", "AWS RDS", "AWS Cloudfront", "AWS S3", "Firebase" ],
         "highlights": [
-            "Started as a back-end programmer working in NodeJS & MySql. Soon played a full stack developer role handling front-end(Angular 2), back-end and production deployment",
             "Integrated <b>ReportJS</b> third party reducing the server communications work by 50% during report generations",
             "<b>Optimized performance</b> by implementing query optimisation, async processing, transaction pooling, vulnerability testing (SQL injection, HSTS, etc...), Load balancers, Child processes, etc...",
-            "Setup and maintained development environment in <b>AWS cloud</b> with services like SNS, SES, Lambda, Cloudfront, EC2, RDS, S3 and firebase. Have provided support several times. With issue fix under 1-4hrs. Have received appreciation from the client on the same",
+            "Setup and maintained development environment in <b>AWS cloud</b> with services like <b>SNS, SES, Lambda, Cloudfront, EC2, RDS, S3 and firebase</b>. Have provided support several times. With issue fix under 1-4hrs. Have received appreciation from the client on the same",
             "Maintained all client communications and change request processing"
         ]
     },
@@ -61,9 +69,8 @@
         "description": "An account management application that will sort the customer's billing book details and show financials",
         "image": "",
         "duration": "6 Months",
-        "tags": [ "Angular 7", "Programmer", "AWS Cloudfront", "AWS S3" ],
+        "tags": [ "Angular 7", "Programmer", "AWS Cloudfront & S3" ],
         "highlights": [
-            "Worked as a front-end developer (Angular 7) <b>upgraded the legacy application into the latest angular version</b>",
             "Have implemented complex functionalities like <b>drag and drop, tree wise recursive data structuring and processing</b>. Have received appreciation from the client on the same",
             "Effectively used polyfills to support the these complex functionalities available in legacy browser IE"
         ]
@@ -81,4 +88,3 @@
         ]
     }
 ]
-
