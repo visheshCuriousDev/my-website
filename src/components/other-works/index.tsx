@@ -62,6 +62,16 @@ const OtherWorks = () => {
           data-aos="fade-up"
           data-aos-delay="200">
           { selectedFilter === otherWorksSections.all ||
+            selectedFilter === otherWorksSections.openSource ? 
+            <>
+              {OtherWorksData.opensource.map(opensource => 
+                <div key={opensource.title} className="col-lg-4 col-md-4 works-item filter-article">
+                  <Work workData={opensource}/>
+                </div>
+              )}
+            </> : ""
+          }
+          { selectedFilter === otherWorksSections.all ||
             selectedFilter === otherWorksSections.article ? 
             <>
               {OtherWorksData.article.map(article => 
@@ -71,12 +81,11 @@ const OtherWorks = () => {
               )}
             </> : ""
           }
-          { selectedFilter === otherWorksSections.all ||
-            selectedFilter === otherWorksSections.openSource ? 
+          { selectedFilter === otherWorksSections.all ? 
             <>
-              {OtherWorksData.opensource.map(opensource => 
-                <div key={opensource.title} className="col-lg-4 col-md-4 works-item filter-article">
-                  <Work workData={opensource}/>
+              {OtherWorksData.all.map(all => 
+                <div key={all.title} className="col-lg-4 col-md-4 works-item filter-article">
+                  <Work workData={all}/>
                 </div>
               )}
             </> : ""

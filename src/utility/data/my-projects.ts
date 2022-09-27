@@ -90,12 +90,68 @@ export const WorkedProjectData = [
 ]
 
 export const OtherWorksData: OtherWorksInterface = {
+    all: [
+        {
+            title: "More articles ...",
+            desc: "I write regularly in dev.to website.",
+            tags: ["Writting"],
+            link: "https://dev.to/vishesh/"
+        },
+        {
+            title: "More code ...",
+            desc: "Checkout my github profile for more of my works.",
+            tags: ["Github", "Code"],
+            link: "https://github.com/visheshCuriousDev"
+        }
+    ],
     article: [
         {
             title: "Responsive JS snake game",
             desc: "This is a responsive snake game. Developed completely in VannilaJS (HTML/CSS/JS) with joystick for mobile support.",
             tags: ["HTML", "CSS", "Javascript", "Game"],
             link: "https://snake-1e514.web.app/"
+        },
+        {
+            title: "Technical Design Document - Microservice",
+            desc: "Article is about how to create technical design document (TDD), used widely to new design systems.",
+            tags: ["System Design", "Microservices"],
+            link: "https://dev.to/vishesh/technical-design-document-microservice-200g"
+        },
+        {
+            title: "What is a load balancer",
+            desc: "Article is about what is a load balacer and how it helps in balancing web traffic.",
+            tags: ["System Design", "Cloud"],
+            link: "https://dev.to/vishesh/what-is-a-load-balancer-33c2"
+        },
+        {
+            title: "How to secure websites",
+            desc: "Article is about what is a load balacer and how it helps in balancing web traffic.",
+            tags: ["System Design", "Web Security"],
+            link: "https://dev.to/vishesh/how-to-secure-websites-against-vulnerabilities-backend-and-frontend-5dfp"
+        },
+        {
+            title: "Publish new NPM Library",
+            desc: "Article is about how to secure websites against vulnerabilities (Backend and Frontend).",
+            tags: ["NPM", "Open source"],
+            link: "https://dev.to/vishesh/creating-new-angular-library-and-publishing-it-in-npm-5f3g"
+        },
+        {
+            title: "Custom error handling in Angular",
+            desc: "Article is about how to create custom error handling in Angular reactive forms. Standardized error handling.",
+            tags: ["Angular", "Forms"],
+            link: "https://dev.to/vishesh/custom-error-handling-in-angular-reactive-forms-5f05"
+        },
+        {
+            title: "WebAssembly in Angular",
+            desc: "Article is about how to run c code in angular / javascript using WebAssembly.",
+            tags: ["C", "WebAssembly", "Javascript"],
+            link: "https://dev.to/vishesh/how-to-run-c-code-in-angular-javascript-3mml"
+        },
+        {
+            title: "Detect scroll in JS",
+            desc: "Article is about how to detect scroll to bottom in an iframe Angular 8 / JS / JQuery.",
+            tags: ["iframe", "Angular", "Javascript"],
+            link: "https://dev.to/vishesh/how-to-detect-scroll-to-bottom-in-an-iframe-angular-8-js-jquery-8e4"
         }
     ],
     opensource: [
@@ -109,6 +165,7 @@ export const OtherWorksData: OtherWorksInterface = {
 };
 
 export interface OtherWorksInterface {
+    all: Array<OtherWorksPrototype>,
     article: Array<OtherWorksPrototype>,
     opensource: Array<OtherWorksPrototype>
 }
