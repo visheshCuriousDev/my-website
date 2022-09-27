@@ -9,7 +9,7 @@ export const pageSections = {
 
 export const otherWorksSections = {
     all: "all",
-    app: "app",
-    card: "card",
+    article: "article",
+    openSource: "openSource",
     web: "web"
 }

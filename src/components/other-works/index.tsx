@@ -36,37 +36,24 @@ const OtherWorks = () => {
                 All
               </li>
               <li
-                data-filter=".filter-app"
                 className={
-                  selectedFilter === otherWorksSections.app
+                  selectedFilter === otherWorksSections.article
                     ? "filter-active"
                     : ""
                 }
-                onClick={() => filterSelect(otherWorksSections.app)}
+                onClick={() => filterSelect(otherWorksSections.article)}
               >
-                App
+                Articles
               </li>
               <li
-                data-filter=".filter-card"
                 className={
-                  selectedFilter === otherWorksSections.card
+                  selectedFilter === otherWorksSections.openSource
                     ? "filter-active"
                     : ""
                 }
-                onClick={() => filterSelect(otherWorksSections.card)}
+                onClick={() => filterSelect(otherWorksSections.openSource)}
               >
-                Card
-              </li>
-              <li
-                data-filter=".filter-web"
-                className={
-                  selectedFilter === otherWorksSections.web
-                    ? "filter-active"
-                    : ""
-                }
-                onClick={() => filterSelect(otherWorksSections.web)}
-              >
-                Web
+                Opensource
               </li>
             </ul>
           </div>
@@ -82,19 +69,14 @@ const OtherWorks = () => {
               All
             </div> : ""
           }
-          { selectedFilter === otherWorksSections.app ? 
-            <div className="col-lg-4 col-md-6 works-item filter-app">
-              app
+          { selectedFilter === otherWorksSections.article ? 
+            <div className="col-lg-4 col-md-6 works-item filter-article">
+              Article
             </div> : ""
           }
-          { selectedFilter === otherWorksSections.card ? 
-            <div className="col-lg-4 col-md-6 works-item filter-card">
-              card
-            </div> : ""
-          }
-          { selectedFilter === otherWorksSections.web ? 
-            <div className="col-lg-4 col-md-6 works-item filter-web">
-              web
+          { selectedFilter === otherWorksSections.openSource ? 
+            <div className="col-lg-4 col-md-6 works-item filter-openSource">
+              Opensource
             </div> : ""
           }
         </div>
