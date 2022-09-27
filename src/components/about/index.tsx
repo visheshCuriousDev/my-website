@@ -1,6 +1,5 @@
 import "./about.css"
 import {
-  ChevronRight,
   Globe2,
   GeoAltFill,
   PersonFill,

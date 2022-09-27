@@ -6,3 +6,10 @@ export const pageSections = {
     portfolio: "portforlio",
     contact: "contact"
 }
+
+export const otherWorksSections = {
+    all: "all",
+    app: "app",
+    card: "card",
+    web: "web"
+}

@@ -16,15 +16,15 @@ const Experience = () => {
         <div className="row timeline">
           <div className="col-lg-6">
             { WorkedProjectData.slice(0, Math.ceil(WorkedProjectData.length/2)).map(project => 
-              <div className="timeline-item pb-0">
+              <div className="timeline-item pb-0" key={project.name}>
                 <h4> {project.name} </h4>
                 {project.tags.map(tag => 
-                  <h5>#{tag} </h5>
+                  <h5 key={tag}>#{tag} </h5>
                 )}
                 <p><em> {project.description} </em></p>
                 <ul>
                   { project.highlights.map(highlight => 
-                    <li> {parse(highlight)} </li>
+                    <li key={highlight}> {parse(highlight)} </li>
                   ) }
                 </ul>
               </div>
@@ -32,15 +32,15 @@ const Experience = () => {
           </div>
           <div className="col-lg-6">
             { WorkedProjectData.slice(Math.ceil(WorkedProjectData.length/2)).map(project => 
-              <div className="timeline-item pb-0">
+              <div className="timeline-item pb-0" key={project.name}>
                 <h4> {project.name} </h4>
                 {project.tags.map(tag => 
-                  <h5>#{tag} </h5>
+                  <h5 key={tag}>#{tag} </h5>
                 )}
                 <p><em> {project.description} </em></p>
                 <ul>
                   { project.highlights.map(highlight => 
-                    <li> {parse(highlight)} </li>
+                    <li key={highlight}> {parse(highlight)} </li>
                   ) }
                 </ul>
               </div>
