@@ -3,13 +3,12 @@ export const pageSections = {
     about: "about",
     resume: "resume",
     experience: "experience",
-    portfolio: "portforlio",
+    works: "works",
     contact: "contact"
 }
 
 export const otherWorksSections = {
     all: "all",
     article: "article",
-    openSource: "openSource",
-    web: "web"
+    openSource: "openSource"
 }

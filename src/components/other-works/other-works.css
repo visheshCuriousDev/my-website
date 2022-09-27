@@ -1,6 +1,30 @@
 /*--------------------------------------------------------------
 # works
 --------------------------------------------------------------*/
+#works {
+  position: relative;
+}
+#works:before {
+  content: "";
+  width: 120px;
+  height: 170px;
+  background: url("/public/img/pattern.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+}
+
+#works:after {
+  content: "";
+  width: 120px;
+  height: 170px;
+  background: url("/public/img/pattern.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
 .works .works-item {
   margin-bottom: 30px;
 }

@@ -66,7 +66,7 @@ const About = () => {
                       <span>{getAge()}</span>
                     </li>
                     <li>
-                      <FileCheckFill size={22} />
+                      <img src="/icons/graduate-cap.png" alt="" />
                       <span>Bachelor Degree</span>
                     </li>
                     <li>

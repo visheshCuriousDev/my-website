@@ -88,3 +88,34 @@ export const WorkedProjectData = [
         ]
     }
 ]
+
+export const OtherWorksData: OtherWorksInterface = {
+    article: [
+        {
+            title: "Responsive JS snake game",
+            desc: "This is a responsive snake game. Developed completely in VannilaJS (HTML/CSS/JS) with joystick for mobile support.",
+            tags: ["HTML", "CSS", "Javascript", "Game"],
+            link: "https://snake-1e514.web.app/"
+        }
+    ],
+    opensource: [
+        {
+            title: "Mobile code validator (Angular)",
+            desc: "This library was generated with Angular CLI version 8.2.14. This package can be used to implement phone code and phone number validation.",
+            tags: ["Angular 8", "Opensource contribution"],
+            link: "https://www.npmjs.com/package/mat-phone-code-validator"
+        }
+    ]
+};
+
+export interface OtherWorksInterface {
+    article: Array<OtherWorksPrototype>,
+    opensource: Array<OtherWorksPrototype>
+}
+
+export interface OtherWorksPrototype {
+    title: string,
+    desc: string,
+    tags?: string[],
+    link: string
+}

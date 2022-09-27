@@ -1,6 +1,8 @@
-import "./works.css";
+import "./other-works.css";
 import { otherWorksSections } from "../../utility/constants";
 import { useState } from "react";
+import Work from "../work";
+import { OtherWorksData } from "../../utility/data/my-projects";
 
 const OtherWorks = () => {
   let [selectedFilter, setSelectedFilter] = useState(otherWorksSections.all);
@@ -62,29 +64,21 @@ const OtherWorks = () => {
           { selectedFilter === otherWorksSections.all ||
             selectedFilter === otherWorksSections.article ? 
             <>
-              <div className="col-lg-4 col-md-4 works-item filter-article">
-                Articles
-              </div>
-              <div className="col-lg-4 col-md-4 works-item filter-article">
-                Articles
-              </div>
-              <div className="col-lg-4 col-md-4 works-item filter-article">
-                Articles
-              </div>
+              {OtherWorksData.article.map(article => 
+                <div key={article.title} className="col-lg-4 col-md-4 works-item filter-article">
+                  <Work workData={article}/>
+                </div>
+              )}
             </> : ""
           }
           { selectedFilter === otherWorksSections.all ||
             selectedFilter === otherWorksSections.openSource ? 
             <>
-              <div className="col-lg-4 col-md-4 works-item filter-openSource">
-                Opensource
-              </div>
-              <div className="col-lg-4 col-md-4 works-item filter-openSource">
-                Opensource
-              </div>
-              <div className="col-lg-4 col-md-4 works-item filter-openSource">
-                Opensource
-              </div>
+              {OtherWorksData.opensource.map(opensource => 
+                <div key={opensource.title} className="col-lg-4 col-md-4 works-item filter-article">
+                  <Work workData={opensource}/>
+                </div>
+              )}
             </> : ""
           }
         </div>

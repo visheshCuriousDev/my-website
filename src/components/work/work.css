@@ -1,0 +1,32 @@
+.work-box {
+    cursor: pointer;
+    position: relative;
+    color: #ffffff;
+    height: 250px;
+    z-index: 0;
+    background-color: #0E243A;
+}
+.work-content {
+    padding: 20px;
+}
+.work-content:hover {
+    opacity: 0.2;
+    transition-duration: 0.5s;
+    transition-property: opacity;
+}
+.work-box .hover-text {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.work-box:hover .hover-text {
+    display: block;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.work-title {
+    margin-top: 10px;
+}

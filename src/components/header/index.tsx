@@ -93,17 +93,17 @@ const Header = () => {
                 <span>Experience</span>
               </a>
             </li>
-            <li onClick={() => navClick(pageSections.portfolio)}>
+            <li onClick={() => navClick(pageSections.works)}>
               <a href="#works"
                 className={`nav-link scrollto ${
-                  selectedSection === pageSections.portfolio ? "active" : ""
+                  selectedSection === pageSections.works ? "active" : ""
                 }`}>
                 <JournalText
-                  title="Portfolio"
+                  title="Other Works"
                   size={20}
                   className="icons"
                 ></JournalText>
-                <span>Portfolio</span>
+                <span>Other Works</span>
               </a>
             </li>
             <li onClick={() => navClick(pageSections.contact)}>
