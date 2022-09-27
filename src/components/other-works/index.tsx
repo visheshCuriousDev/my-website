@@ -22,8 +22,7 @@ const OtherWorks = () => {
           <div
             className="col-lg-12 d-flex justify-content-center"
             data-aos="fade-up"
-            data-aos-delay="100"
-          >
+            data-aos-delay="100">
             <ul id="works-flters">
               <li
                 className={
@@ -31,8 +30,7 @@ const OtherWorks = () => {
                     ? "filter-active"
                     : ""
                 }
-                onClick={() => filterSelect(otherWorksSections.all)}
-              >
+                onClick={() => filterSelect(otherWorksSections.all)}>
                 All
               </li>
               <li
@@ -41,8 +39,7 @@ const OtherWorks = () => {
                     ? "filter-active"
                     : ""
                 }
-                onClick={() => filterSelect(otherWorksSections.article)}
-              >
+                onClick={() => filterSelect(otherWorksSections.article)}>
                 Articles
               </li>
               <li
@@ -51,8 +48,7 @@ const OtherWorks = () => {
                     ? "filter-active"
                     : ""
                 }
-                onClick={() => filterSelect(otherWorksSections.openSource)}
-              >
+                onClick={() => filterSelect(otherWorksSections.openSource)}>
                 Opensource
               </li>
             </ul>
@@ -62,22 +58,34 @@ const OtherWorks = () => {
         <div
           className="row works-container"
           data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          { selectedFilter === otherWorksSections.all ? 
-            <div className="col-lg-4 col-md-6 works-item filter-all">
-              All
-            </div> : ""
+          data-aos-delay="200">
+          { selectedFilter === otherWorksSections.all ||
+            selectedFilter === otherWorksSections.article ? 
+            <>
+              <div className="col-lg-4 col-md-4 works-item filter-article">
+                Articles
+              </div>
+              <div className="col-lg-4 col-md-4 works-item filter-article">
+                Articles
+              </div>
+              <div className="col-lg-4 col-md-4 works-item filter-article">
+                Articles
+              </div>
+            </> : ""
           }
-          { selectedFilter === otherWorksSections.article ? 
-            <div className="col-lg-4 col-md-6 works-item filter-article">
-              Article
-            </div> : ""
-          }
-          { selectedFilter === otherWorksSections.openSource ? 
-            <div className="col-lg-4 col-md-6 works-item filter-openSource">
-              Opensource
-            </div> : ""
+          { selectedFilter === otherWorksSections.all ||
+            selectedFilter === otherWorksSections.openSource ? 
+            <>
+              <div className="col-lg-4 col-md-4 works-item filter-openSource">
+                Opensource
+              </div>
+              <div className="col-lg-4 col-md-4 works-item filter-openSource">
+                Opensource
+              </div>
+              <div className="col-lg-4 col-md-4 works-item filter-openSource">
+                Opensource
+              </div>
+            </> : ""
           }
         </div>
       </div>
