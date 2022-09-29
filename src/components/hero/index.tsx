@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./hero.css";
-import Typed from "react-typed";
+import Typed from "typewriter-effect";
 import {
   Github,
   Linkedin,
@@ -16,10 +16,14 @@ const Hero = () => {
         <h1>Vishesh M</h1>
         <p className="name-title">
           <Typed
-            strings={["Fullstack Developer", "Wordpress", "AWS DevOps"]}
-            typeSpeed={80}
-            backSpeed={60}
-            loop
+            options={
+              {
+                strings: ["Fullstack Developer", "Wordpress", "AWS DevOps"],
+                delay: "natural",
+                deleteSpeed: "natural",
+                loop: true
+              }
+            }
           />
         </p>
         <div className="social-links">
