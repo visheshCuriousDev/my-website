@@ -1,5 +1,4 @@
 import "./contact.css";
-import { EnvelopeFill, GeoAltFill } from "react-bootstrap-icons";
 
 const Contact = () => {
   return (
@@ -10,22 +9,7 @@ const Contact = () => {
         </div>
 
         <div className="row mt-1">
-          <div className="col-lg-4">
-            <div className="info">
-              <div className="address">
-                <GeoAltFill size={22} />
-                <h4>Location:</h4>
-                <p>Chennai, Tamil Nadu 600122, India</p>
-              </div>
-
-              <div className="email">
-                <EnvelopeFill size={22} />
-                <h4>Email:</h4>
-                <p>contact@visheshdev.in</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-8 mt-5 mt-lg-0">
+          <div className="col-lg-12 mt-5 mt-lg-0">
             <form
               action="#"
               method="post"
@@ -79,9 +63,9 @@ const Contact = () => {
                   Your message has been sent. Thank you!
                 </div>
               </div> */}
-              {/* <div className="text-center">
+              <div className="text-center mt-3">
                 <button type="submit">Send Message</button>
-              </div> */}
+              </div>
             </form>
           </div>
         </div>

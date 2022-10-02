@@ -1,9 +1,22 @@
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-.contact .info {
+.contact {
   width: 100%;
-  background: #fff;
+  background-color: #fff;
+}
+
+.contact:before {
+  content: "";
+  width: 40%;
+  height: 40%;
+  background: url("/public/img/triangles-left-white-bg.svg") top right no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.contact .row {
+  text-align: center;
 }
 
 .contact .info i {

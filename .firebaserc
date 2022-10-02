@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "my-site-676cd"
-  }
+    "default": "my-site-676cd",
+    "production": "my-site-676cd"
+  },
+  "targets": {}
 }

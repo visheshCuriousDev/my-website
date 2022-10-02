@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./hero.css";
 import Typed from "typewriter-effect";
 import {
@@ -14,18 +13,19 @@ const Hero = () => {
     <section id="hero" className="d-flex flex-column justify-content-center">
       <div className="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Vishesh M</h1>
-        <p className="name-title">
+        <div className="name-title">
           <Typed
             options={
               {
                 strings: ["Fullstack Developer", "Wordpress", "AWS DevOps"],
                 delay: "natural",
                 deleteSpeed: "natural",
-                loop: true
+                loop: true,
+                autoStart: true
               }
             }
           />
-        </p>
+        </div>
         <div className="social-links">
           <a
             href="https://www.linkedin.com/in/vishesh-m-304a99bb"

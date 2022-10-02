@@ -3,7 +3,6 @@ import {
   Globe2,
   GeoAltFill,
   PersonFill,
-  FileCheckFill,
   EnvelopeFill
 } from "react-bootstrap-icons";
 import ProgressBar from 'react-bootstrap/ProgressBar';

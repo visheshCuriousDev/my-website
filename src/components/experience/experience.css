@@ -1,15 +1,15 @@
 #experience {
-    width: 100%;
-    background: #ffffff;
-    background-size: cover;
-    position: relative;
-  }
-  
-  #experience:before {
-    content: "";
-    width: 40%;
-    height: 100%;
-    background: url("/public/img/triangles-left-white-bg.svg") top right no-repeat;
-    background-size: cover;
-    position: absolute;
-  }
+  width: 100%;
+  background: #ffffff;
+  background-size: cover;
+  position: relative;
+}
+
+#experience:before {
+  content: "";
+  width: 40%;
+  height: 100%;
+  background: url("/public/img/triangles-left-white-bg.svg") top right no-repeat;
+  background-size: cover;
+  position: absolute;
+}

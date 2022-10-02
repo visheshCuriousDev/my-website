@@ -39,9 +39,12 @@
     font-family: "Poppins", sans-serif;
   }
   
-  #hero p span {
+  #hero .name-title {
     color: #39B54A;
     letter-spacing: 1px;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
   }
   
   #hero .social-links {
