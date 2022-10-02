@@ -1,13 +1,13 @@
 export const WorkedProjectData = [
     {
         "name": "Healthcare shift booking application **",
-        "description": "This is a US based healthcare application. Health care professionals (Nurses, RNA, CNA, etc.) can register and book shifts that are added by facilities (Hospitals / Care centers).",
+        "description": "This is a US based healthcare application. Health care professionals (Nurses, RNA, CNA, etc.) can register and book shifts that are added by facilities (Hospitals / Care center).",
         "image": "",
         "tags": [ "ReactJS", "Ionic", "NodeJS", "AWS DevOps" ],
         "highlights": [
             "Created a TDD(Technical Design Document) for new microservice and implementing the same",
             "Learning how to setup and implement CI/CD and automated deployments",
-            "Learing industry best practices like code reviews, pair programming, srint planing, mentoring and sharing experience wiht team and organisation"
+            "Learning industry best practices like code reviews, pair programming, sprint planing, mentoring and sharing experience with team and organisation"
         ]
     },
     {
@@ -17,7 +17,7 @@ export const WorkedProjectData = [
         "duration": "6 months",
         "tags": [ "ReactJS", "Project Lead", "AWS S3 & Cloudfront" ],
         "highlights": [
-            "Implemented a complex <b>refresh token logic</b> inside a <b>HTTP middileware</b>. Made it work for even simultaneous HTTP requests",
+            "Implemented a complex <b>refresh token logic</b> inside a <b>HTTP middleware</b>. Made it work for even simultaneous HTTP requests",
             "Implemented the aadhaar card third party integration that made the KYC step quicker",
             "Planned project execution and timelines as per dependencies",
             "Handled client communicationa nd integrated with client APIs"
@@ -53,13 +53,13 @@ export const WorkedProjectData = [
     },
     {
         "name": "Background verification application",
-        "description": "A background verification application. Organisations can enroll and add their agents / HRs. These agents can then updload the candidates whose background verification needs to be done. Each of the candidates will get a link and they can continues the process. A report for each of the cadidate will be available for the agent to check.",
+        "description": "A background verification application. Organisations can enrol and add their agents / HRs. These agents can then upload the candidates whose background verification needs to be done. Each of the candidates will get a link and they can continues the process. A report for each of the candidate will be available for the agent to check.",
         "image": "",
         "duration": "3 years",
         "tags": [ "NodeJS", "Angular 2-4", "Programmer", "AWS SES/SNS", "AWS Lambda", "AWS RDS", "AWS Cloudfront", "AWS S3", "Firebase" ],
         "highlights": [
             "Integrated <b>ReportJS</b> third party reducing the server communications work by 50% during report generations",
-            "<b>Optimized performance</b> by implementing query optimisation, async processing, transaction pooling, vulnerability testing (SQL injection, HSTS, etc...), Load balancers, Child processes, etc...",
+            "<b>Optimised performance</b> by implementing query optimisation, async processing, transaction pooling, vulnerability testing (SQL injection, HSTS, etc...), Load balancers, Child processes, etc...",
             "Setup and maintained development environment in <b>AWS cloud</b> with services like <b>SNS, SES, Lambda, Cloudfront, EC2, RDS, S3 and firebase</b>. Have provided support several times. With issue fix under 1-4hrs. Have received appreciation from the client on the same",
             "Maintained all client communications and change request processing"
         ]
@@ -83,8 +83,8 @@ export const WorkedProjectData = [
         "tags": [ "WordPress", "PHP", "Programmer", "Apache" ],
         "highlights": [
             "Created the multiple <b>custom plugins</b> in the wordpress to implement custom housing loan interest calculation",
-            "Created custom plugin to list, record and maintain the vaious <b>form submissions</b> in the wordpress application",
-            "Migrated the wordpress application accross multiple server environments"
+            "Created custom plugin to list, record and maintain the various <b>form submissions</b> in the wordpress application",
+            "Migrated the wordpress application across multiple server environments"
         ]
     }
 ]
@@ -94,12 +94,12 @@ export const OtherWorksData: OtherWorksInterface = {
         {
             title: "More articles ...",
             desc: "I write regularly in dev.to website.",
-            tags: ["Writting"],
+            tags: ["Writing"],
             link: "https://dev.to/vishesh/"
         },
         {
             title: "More code ...",
-            desc: "Checkout my github profile for more of my works.",
+            desc: "Checkout my Github profile for more of my works.",
             tags: ["Github", "Code"],
             link: "https://github.com/visheshCuriousDev"
         }
@@ -119,13 +119,13 @@ export const OtherWorksData: OtherWorksInterface = {
         },
         {
             title: "What is a load balancer",
-            desc: "Article is about what is a load balacer and how it helps in balancing web traffic.",
+            desc: "Article is about what is a load balancer and how it helps in balancing web traffic.",
             tags: ["System Design", "Cloud"],
             link: "https://dev.to/vishesh/what-is-a-load-balancer-33c2"
         },
         {
             title: "How to secure websites",
-            desc: "Article is about what is a load balacer and how it helps in balancing web traffic.",
+            desc: "Article is about how best to secure websites that you built.",
             tags: ["System Design", "Web Security"],
             link: "https://dev.to/vishesh/how-to-secure-websites-against-vulnerabilities-backend-and-frontend-5dfp"
         },
@@ -137,7 +137,7 @@ export const OtherWorksData: OtherWorksInterface = {
         },
         {
             title: "Custom error handling in Angular",
-            desc: "Article is about how to create custom error handling in Angular reactive forms. Standardized error handling.",
+            desc: "Article is about how to create custom error handling in Angular reactive forms. Standardize error handling.",
             tags: ["Angular", "Forms"],
             link: "https://dev.to/vishesh/custom-error-handling-in-angular-reactive-forms-5f05"
         },
