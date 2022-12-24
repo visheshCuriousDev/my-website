@@ -95,13 +95,15 @@ export const OtherWorksData: OtherWorksInterface = {
             title: "More articles ...",
             desc: "I write regularly in dev.to website.",
             tags: ["Writing"],
-            link: "https://dev.to/vishesh/"
+            link: "https://dev.to/vishesh/",
+            image: ["/img/quotation.png"]
         },
         {
             title: "More code ...",
             desc: "Checkout my Github profile for more of my works.",
             tags: ["Github", "Code"],
-            link: "https://github.com/visheshCuriousDev"
+            link: "https://github.com/visheshCuriousDev",
+            image: ["/img/quotation.png"]
         }
     ],
     article: [
@@ -109,49 +111,57 @@ export const OtherWorksData: OtherWorksInterface = {
             title: "Responsive JS snake game",
             desc: "This is a responsive snake game. Developed completely in VannilaJS (HTML/CSS/JS) with joystick for mobile support.",
             tags: ["HTML", "CSS", "Javascript", "Game"],
-            link: "https://snake-1e514.web.app/"
+            link: "https://snake-1e514.web.app/",
+            image: ["/icons/game-development.png"]
         },
         {
             title: "Technical Design Document - Microservice",
             desc: "Article is about how to create technical design document (TDD), used widely to new design systems.",
             tags: ["System Design", "Microservices"],
-            link: "https://dev.to/vishesh/technical-design-document-microservice-200g"
+            link: "https://dev.to/vishesh/technical-design-document-microservice-200g",
+            image: ["/icons/cloud-data.png"]
         },
         {
             title: "What is a load balancer",
             desc: "Article is about what is a load balancer and how it helps in balancing web traffic.",
             tags: ["System Design", "Cloud"],
-            link: "https://dev.to/vishesh/what-is-a-load-balancer-33c2"
+            link: "https://dev.to/vishesh/what-is-a-load-balancer-33c2",
+            image: ["/icons/cloud-data.png"]
         },
         {
             title: "How to secure websites",
             desc: "Article is about how best to secure websites that you built.",
             tags: ["System Design", "Web Security"],
-            link: "https://dev.to/vishesh/how-to-secure-websites-against-vulnerabilities-backend-and-frontend-5dfp"
+            link: "https://dev.to/vishesh/how-to-secure-websites-against-vulnerabilities-backend-and-frontend-5dfp",
+            image: ["/icons/globe-grid.png"]
         },
         {
             title: "Publish new NPM Library",
             desc: "Article is about how to secure websites against vulnerabilities (Backend and Frontend).",
             tags: ["NPM", "Open source"],
-            link: "https://dev.to/vishesh/creating-new-angular-library-and-publishing-it-in-npm-5f3g"
+            link: "https://dev.to/vishesh/creating-new-angular-library-and-publishing-it-in-npm-5f3g",
+            image: ["/icons/npm.png"]
         },
         {
             title: "Custom error handling in Angular",
             desc: "Article is about how to create custom error handling in Angular reactive forms. Standardize error handling.",
             tags: ["Angular", "Forms"],
-            link: "https://dev.to/vishesh/custom-error-handling-in-angular-reactive-forms-5f05"
+            link: "https://dev.to/vishesh/custom-error-handling-in-angular-reactive-forms-5f05",
+            image: ["/icons/angular.svg"]
         },
         {
             title: "WebAssembly in Angular",
             desc: "Article is about how to run c code in angular / javascript using WebAssembly.",
             tags: ["C", "WebAssembly", "Javascript"],
-            link: "https://dev.to/vishesh/how-to-run-c-code-in-angular-javascript-3mml"
+            link: "https://dev.to/vishesh/how-to-run-c-code-in-angular-javascript-3mml",
+            image: ["/icons/angular.svg", "/icons/global.png"]
         },
         {
             title: "Detect scroll in JS",
             desc: "Article is about how to detect scroll to bottom in an iframe Angular 8 / JS / JQuery.",
             tags: ["iframe", "Angular", "Javascript"],
-            link: "https://dev.to/vishesh/how-to-detect-scroll-to-bottom-in-an-iframe-angular-8-js-jquery-8e4"
+            link: "https://dev.to/vishesh/how-to-detect-scroll-to-bottom-in-an-iframe-angular-8-js-jquery-8e4",
+            image: ["/img/quotation.png"]
         }
     ],
     opensource: [
@@ -159,7 +169,8 @@ export const OtherWorksData: OtherWorksInterface = {
             title: "Mobile code validator (Angular)",
             desc: "This library was generated with Angular CLI version 8.2.14. This package can be used to implement phone code and phone number validation.",
             tags: ["Angular 8", "Opensource contribution"],
-            link: "https://www.npmjs.com/package/mat-phone-code-validator"
+            link: "https://www.npmjs.com/package/mat-phone-code-validator",
+            image: ["/icons/npm.png"]
         }
     ]
 };
@@ -174,5 +185,6 @@ export interface OtherWorksPrototype {
     title: string,
     desc: string,
     tags?: string[],
-    link: string
+    link: string,
+    image: string[],
 }

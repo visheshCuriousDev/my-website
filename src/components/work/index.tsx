@@ -10,7 +10,11 @@ const Work = ({workData}: {workData: OtherWorksPrototype}) => {
     return (
         <div className="work-box" onClick={() => openLink()}>
             <div className="work-content">
-                <img className="work-img" src="/img/quotation.png" alt="" />
+                {
+                    workData.image.map((img, index) => 
+                        <img className={`work-img ${index === 0 ? "zero" : ""}`} src={img} alt="" />
+                    )
+                }
                 <h5 className="work-title">{workData.title}</h5>
                 <p className="work-desc">{workData.desc}</p>
                 { workData.tags?.map(work => 
