@@ -17,7 +17,7 @@ const Hero = () => {
           <Typed
             options={
               {
-                strings: ["FullStack Developer", "Wordpress", "AWS DevOps"],
+                strings: ["FullStack Developer", "AWS DevOps", "Wordpress"],
                 delay: "natural",
                 deleteSpeed: "natural",
                 loop: true,

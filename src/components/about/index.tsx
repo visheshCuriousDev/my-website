@@ -26,7 +26,7 @@ const About = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 my-profile-img">
               <img
                 src="/img/my_profile.JPG"
                 className="img-fluid"
@@ -148,7 +148,7 @@ const About = () => {
                 <span className="skill">
                   NoSQL <i className="val">60%</i>
                 </span>
-                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={60} />
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={70} />
               </div>
 
               <div className="progress">
