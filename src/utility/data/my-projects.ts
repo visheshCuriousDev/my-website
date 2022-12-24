@@ -116,7 +116,7 @@ export const OtherWorksData: OtherWorksInterface = {
         },
         {
             title: "Technical Design Document",
-            desc: "Article is about how to create technical design document (TDD), used widely to new design systems.",
+            desc: "Article is about how to create technical design document (TDD), used widely to design new systems.",
             tags: ["System Design", "Microservices"],
             link: "https://dev.to/vishesh/technical-design-document-microservice-200g",
             image: ["/icons/cloud-data.png"]
