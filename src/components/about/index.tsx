@@ -28,7 +28,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-4">
               <img
-                src="assets/img/profile-img.jpg"
+                src="/img/my_profile.JPG"
                 className="img-fluid"
                 alt=""
               />

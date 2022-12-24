@@ -208,11 +208,12 @@ section {
 
 .timeline .timeline-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #e3f1ff;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .timeline .timeline-item ul {

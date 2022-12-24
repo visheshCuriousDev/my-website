@@ -34,7 +34,7 @@ const Home = () => {
             <Resume />
             <Experience />
             <OtherWorks />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
         </div>
     );

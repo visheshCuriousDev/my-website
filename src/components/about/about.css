@@ -92,3 +92,11 @@
 .about-list li span {
   margin-left: 10px;
 }
+
+.img-fluid {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 10px solid #39B54A;
+  border-radius: 50%;
+}

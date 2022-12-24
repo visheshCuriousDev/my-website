@@ -3,7 +3,7 @@ export const WorkedProjectData = [
         "name": "Healthcare shift booking application **",
         "description": "This is a US based healthcare application. Health care professionals (Nurses, RNA, CNA, etc.) can register and book shifts that are added by facilities (Hospitals / Care center).",
         "image": "",
-        "tags": [ "ReactJS", "Ionic", "NodeJS", "AWS DevOps" ],
+        "tags": [ "NodeJS", "Microservices", "ReactJS", "Ionic", "AWS DevOps" ],
         "highlights": [
             "Created a TDD(Technical Design Document) for new microservice and implementing the same",
             "Learning how to setup and implement CI/CD and automated deployments",

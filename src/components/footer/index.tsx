@@ -25,9 +25,6 @@ const Footer = () => {
           <a href="#works" className="nav-link scrollto">
             <JournalText title="Portfolio" size={20}></JournalText>
           </a>
-          <a href="#contact" className="nav-link scrollto">
-            <Mailbox title="Contact" size={20}></Mailbox>
-          </a>
         </div>
         <div className="copyright">
           &copy; Copyright{" "}

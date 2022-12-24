@@ -106,6 +106,7 @@ const Header = () => {
                 <span>Other Works</span>
               </a>
             </li>
+            {/* TODO: enable after secure contact APIis written
             <li onClick={() => navClick(pageSections.contact)}>
               <a href="#contact"
                 className={`nav-link scrollto ${
@@ -114,7 +115,7 @@ const Header = () => {
                 <Mailbox title="Contact" size={20} className="icons"></Mailbox>
                 <span>Contact</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
