@@ -3,17 +3,12 @@
   --------------------------------------------------------------*/
   #hero {
     width: 100%;
-    height: 100vh;
     background: url("/public/img/hero-bg-plain.png") top right no-repeat;
     background-size: cover;
     position: relative;
+    color: #c6dace;
   }
   
-  @media (min-width: 992px) {
-    #hero {
-      padding-left: 160px;
-    }
-  }
   
   #hero:before {
     content: "";
@@ -26,17 +21,9 @@
   
   #hero h1 {
     margin: 0;
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 56px;
-    color: #c6dace;
-  }
-  
-  #hero p {
-    color: #c6dace;
-    margin: 15px 0 0 0;
-    font-size: 26px;
-    font-family: "Poppins", sans-serif;
   }
   
   #hero .name-title {
@@ -76,11 +63,20 @@
     #hero h1 {
       font-size: 32px;
       line-height: 36px;
+      display: inline-block;
+    }
+
+    #hero .designation {
+      padding-left: 10px;
     }
   
     #hero p {
       margin-top: 10px;
       font-size: 20px;
       line-height: 24px;
+    }
+
+    .hero-right {
+      margin-top: 25px;
     }
   }

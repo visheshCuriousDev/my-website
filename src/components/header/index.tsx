@@ -62,13 +62,13 @@ const Header = () => {
                 <span>Home</span>
               </a>
             </li>
-            <li onClick={() => navClick(pageSections.about)}>
-              <a href="#about"
+            <li onClick={() => navClick(pageSections.skill)}>
+              <a href="#skill"
                 className={`nav-link scrollto ${
-                  selectedSection === pageSections.about ? "active" : ""
+                  selectedSection === pageSections.skill ? "active" : ""
                 }`}>
-                <Person title="About" size={20} className="icons"></Person>
-                <span>About</span>
+                <Person title="Skills" size={20} className="icons"></Person>
+                <span>Skills</span>
               </a>
             </li>
             <li onClick={() => navClick(pageSections.resume)}>

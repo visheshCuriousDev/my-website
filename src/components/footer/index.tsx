@@ -4,7 +4,6 @@ import {
   Person,
   FileText,
   JournalText,
-  Mailbox,
 } from "react-bootstrap-icons";
 
 const Footer = () => {

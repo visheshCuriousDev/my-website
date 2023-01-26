@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "glightbox": "^3.2.0",
     "html-react-parser": "^3.0.4",
+    "luxon": "^3.2.1",
     "nodemailer": "^6.8.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.0.0-rc.0",
@@ -58,6 +59,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/luxon": "^3.2.0",
     "@types/react-router-dom": "^5.3.3"
   }
 }

@@ -3,12 +3,11 @@ import './home.css';
 import Header from '../header';
 import Hero from '../hero';
 import Aos from 'aos';
-import { useEffect } from 'react';
-import About from '../about';
+import { useEffect, Fragment } from 'react';
+import Skill from '../skills';
 import Resume from '../resume';
 import Experience from '../experience';
 import OtherWorks from '../other-works';
-import Contact from '../contact';
 import { isNavbarOpened } from '../../features/slice/headerSlice';
 import { useSelector } from 'react-redux';
 import Footer from '../footer';
@@ -29,11 +28,13 @@ const Home = () => {
     return (
         <div className={`body ${navbar ? 'mobile-nav-active' : ''} `}>
             <Header />
-            <Hero />
-            <About />
-            <Resume />
-            <Experience />
-            <OtherWorks />
+            <Fragment>
+                <Hero />
+                <div id="skill"><Skill /></div>
+                <Resume />
+                <Experience />
+                <OtherWorks />
+            </Fragment>
             {/* <Contact /> */}
             <Footer />
         </div>

@@ -42,7 +42,7 @@ const Resume = () => {
               </ul>
             </div>
             <div className="timeline-item">
-              <h4>Senior programmer</h4>
+              <h4>Senior programmer &lt; Programmer</h4>
               <p><b><a href="https://www.ionixxtech.com/" target="_blank" rel="noreferrer">@Ionixx</a></b></p>
               <h5>2017 - 2022</h5>
               <ul>
