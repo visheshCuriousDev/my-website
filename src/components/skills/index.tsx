@@ -41,7 +41,7 @@ const Skill = () => {
                 <span className="skill">
                   ReactJs <i className="val">90%</i>
                 </span>
-                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
               </div>
 
               <div className="progress">
