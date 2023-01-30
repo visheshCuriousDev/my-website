@@ -25,7 +25,7 @@ const Skill = () => {
             <div className="col-lg-6">
               <div className="progress">
                 <span className="skill">
-                  ReactJs <i className="val">100%</i>
+                  NodeJS <i className="val">100%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
               </div>
@@ -39,6 +39,13 @@ const Skill = () => {
 
               <div className="progress">
                 <span className="skill">
+                  ReactJs <i className="val">90%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
                   Typescript <i className="val">90%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
@@ -46,30 +53,17 @@ const Skill = () => {
 
               <div className="progress">
                 <span className="skill">
-                  HTML &amp; CSS <i className="val">90%</i>
+                  HTML &amp; CSS <i className="val">80%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  WordPress/CMS <i className="val">50%</i>
-                </span>
-                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={50} />
               </div>
             </div>
 
             <div className="col-lg-6">
-              <div className="progress">
-                <span className="skill">
-                  NodeJS <i className="val">100%</i>
-                </span>
-                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
-              </div>
 
               <div className="progress">
                 <span className="skill">
-                  MySQL <i className="val">90%</i>
+                  MySQL <i className="val">80%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
               </div>
@@ -86,6 +80,13 @@ const Skill = () => {
                   DevOps (AWS / CI / CD / Firebase) <i className="val">75%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={75} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
+                  WordPress/CMS <i className="val">50%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={50} />
               </div>
             </div>
           </div>
