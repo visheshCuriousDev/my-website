@@ -25,6 +25,27 @@ const Skill = () => {
             <div className="col-lg-6">
               <div className="progress">
                 <span className="skill">
+                  Java (SpringBoot) <i className="val">60%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={60} />
+              </div>
+              
+              <div className="progress">
+                <span className="skill">
+                  Terraform <i className="val">50%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={50} />
+              </div>
+              
+              <div className="progress">
+                <span className="skill">
+                  GCS - CloudRun, Service Accounts, PubSub <i className="val">50%</i>
+                </span>
+                <ProgressBar min={0} max={100} variant={'info'} animated={true} now={50} />
+              </div>
+
+              <div className="progress">
+                <span className="skill">
                   NodeJS <i className="val">100%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={100} />
@@ -63,7 +84,7 @@ const Skill = () => {
 
               <div className="progress">
                 <span className="skill">
-                  MySQL <i className="val">80%</i>
+                  MySQL & PostgreSQL <i className="val">80%</i>
                 </span>
                 <ProgressBar min={0} max={100} variant={'info'} animated={true} now={90} />
               </div>

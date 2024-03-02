@@ -21,17 +21,17 @@ const About = () => {
       {/* <!-- ======= About Section ======= --> */}
       <div className="about container" data-aos="fade-up">
         <div className="row">
-          <div className="col-lg-4 my-profile-img">
+          {/* <div className="col-lg-4 my-profile-img">
             <img
               src="/img/my_profile.JPG"
               className="img-fluid"
               alt=""
             />
-          </div>
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          </div> */}
+          <div className="pt-4 pt-lg-0 content">
             <p>
               Building web applications with API servers (microservices), user interface, cloud deployment and CI / CD.
-              I have advanced proficiency in <span className="green-highlight">RectJS, HTML, CSS, Angular2-8,
+              I have advanced proficiency in <span className="green-highlight">Java(SpringBoot), Terraform, GCS, RectJS, HTML, CSS, Angular2-8,
               Typescript, NodeJS, ES6</span>. I also have a solid foundation in cloud
               application like <span className="green-highlight">AWS cloudfront, AWS S3, Firebase, etc</span>.
             </p>
@@ -67,7 +67,7 @@ const About = () => {
                   <li>
                     <EnvelopeFill size={22} />
                     <span>
-                      <a href="mailto:contact@visheshdev.in" target="__blank">contact@visheshdev.in</a>
+                      <a href="mailto:visheshvvvm@gmail.com" target="__blank">visheshvvvm@gmail.com</a>
                     </span>
                   </li>
                 </ul>

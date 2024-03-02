@@ -14,10 +14,10 @@ const Resume = () => {
             <h3 className="timeline-title">Summary</h3>
             <div className="timeline-item pb-0">
               <h4>Vishesh M</h4>
-              <p><em>Innovative and deadline-driven Web Developer with 5+ years of experience developing applications from initial concept to final, polished deliverable.</em></p>
+              <p><em>Innovative and deadline-driven Web Developer with 6+ years of experience developing applications from initial concept to final, polished deliverable.</em></p>
               <ul>
                 <li>Chennai, Tamil Nadu, Chennai - 600122</li>
-                <li>contact@visheshdev.in</li>
+                <li>visheshvvvm@gmail.com</li>
               </ul>
             </div>
 
@@ -36,8 +36,8 @@ const Resume = () => {
               <p><b><a href="https://www.thoughtworks.com/en-in" target="_blank" rel="noreferrer">@Thoughtworks</a></b></p>
               <h5>2022 - Present</h5>
               <ul>
-                <li>Working as FullStack dev in JavaScript, TypeScript, React, NodeJs, ionic, etc.</li>
-                <li>Develop and deploy to the latest cloud platforms with CI/CD such as AWS CloudFront, GIT, Jenkins.</li>
+                <li>Working as FullStack dev in Java SpringBoot, Terraform, GCP, JavaScript, TypeScript, React, NodeJs, ionic, etc.</li>
+                <li>Develop and deploy to the latest cloud platforms with CI/CD such as GCP, AWS CloudFront, GIT, Jenkins.</li>
                 <li>Mentoring team with 5-6 members on a new healthcare start up.</li>
               </ul>
             </div>

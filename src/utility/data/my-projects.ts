@@ -1,17 +1,39 @@
 export const WorkedProjectData = [
     {
-        "name": "Healthcare shift booking application **",
+        "name": "Leading loyalty & payment system | Germany **",
+        "description": "This is a Germany based loyalty and payment system. Users can pay bills via the system and gain access to offers and coupons of nearby stores. This is the Germay's largest system.",
+        "image": "",
+        "tags": [ "Java (SpringBoot)", "Microservices", "Terraform", "GCP DevOps" ],
+        "highlights": [
+            "Learned and created a new <b>SpringBoot</b> application along with <b>Terraform + GCP</b>(Used to cerate cloud resources)",
+            "Refining existing SAS systems into a SpringBoot Microservice",
+            "Preaching industry best practices like code reviews, pair programming, sprint planning, mentoring and sharing experience with team and organization"
+        ]
+    },
+    {
+        "name": "Fintech | India",
+        "description": "This is a Germany based loyalty and payment system. Users can pay bills via the system and gain access to offers and coupons of nearby stores. This is the Germay's largest system.",
+        "image": "",
+        "tags": [ "Java (SpringBoot)", "Microservices", "Terraform", "GCP DevOps" ],
+        "highlights": [
+            "Learned and created a new <b>SpringBoot</b> application from scratch and implemented it",
+            "Restructured the system architecture and brought in best practices for microservices",
+            "Preaching industry best practices like code reviews, pair programming, sprint planning, mentoring and sharing experience with team and organization"
+        ]
+    },
+    {
+        "name": "Healthcare shift booking application | US",
         "description": "This is a US based healthcare application. Health care professionals (Nurses, RNA, CNA, etc.) can register and book shifts that are added by facilities (Hospitals / Care center).",
         "image": "",
         "tags": [ "NodeJS", "Microservices", "ReactJS", "Ionic", "AWS DevOps" ],
         "highlights": [
-            "Created a TDD(Technical Design Document) for new microservice and implementing the same",
-            "Learning how to setup and implement CI/CD and automated deployments",
-            "Learning industry best practices like code reviews, pair programming, sprint planing, mentoring and sharing experience with team and organisation"
+            "Created a <b>TDD(Technical Design Document)</b> for new microservice and implementing the same",
+            "Learning how to setup and implement <b>CI/CD</b> and automated deployments",
+            "Learning industry best practices like code reviews, pair programming, sprint planning, mentoring and sharing experience with team and organization"
         ]
     },
     {
-        "name": "Cryptocurrency trading application",
+        "name": "Cryptocurrency trading application | Germany",
         "description": "This is a global cryptocurrency trading platform. Users can register, perform KYC and buy or sell or convert into multiple cryptocurrencies.",
         "image": "",
         "duration": "6 months",
@@ -24,7 +46,7 @@ export const WorkedProjectData = [
         ]
     },
     {
-        "name": "Telehealth application",
+        "name": "Telehealth application | US",
         "description": "US based medical application. It shows heart / lung recordings of a patients along with few questions asked to the patient. The admins can manage all patients, doctors and their appointments here",
         "image": "",
         "duration": "1.5 years",
@@ -37,7 +59,7 @@ export const WorkedProjectData = [
         ]
     },
     {
-        "name": "Oil shipping activity tracking application",
+        "name": "Oil shipping activity tracking application | Signapore",
         "description": "US based shipping activity tracking application. The software manages vessel's inventory, health and travel. All the metrics are recorded and updated in real time",
         "image": "",
         "duration": "1 year",
@@ -52,7 +74,7 @@ export const WorkedProjectData = [
         ]
     },
     {
-        "name": "Background verification application",
+        "name": "Background verification application | India",
         "description": "A background verification application. Organisations can enrol and add their agents / HRs. These agents can then upload the candidates whose background verification needs to be done. Each of the candidates will get a link and they can continues the process. A report for each of the candidate will be available for the agent to check.",
         "image": "",
         "duration": "3 years",
@@ -65,7 +87,7 @@ export const WorkedProjectData = [
         ]
     },
     {
-        "name": "Finance management application ",
+        "name": "Finance management application | EU",
         "description": "An account management application that will sort the customer's billing book details and show financials",
         "image": "",
         "duration": "6 Months",
@@ -76,7 +98,7 @@ export const WorkedProjectData = [
         ]
     },
     {
-        "name": "Housing finanace application",
+        "name": "Housing finanace application | India",
         "description": "Wordpress application of a leading finance company in India. The application hosts few custom interest calculators and housing plans.",
         "image": "",
         "duration": "2 Months",

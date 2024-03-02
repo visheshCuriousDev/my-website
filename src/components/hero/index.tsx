@@ -20,7 +20,7 @@ const Hero = () => {
               <Typed
                 options={
                   {
-                    strings: ["Javascript", "React", "NodeJS", "AWS DevOps", "Typescript"],
+                    strings: ["Java", "Terraform", "Javascript", "React", "NodeJS", "AWS & GCP DevOps", "Typescript"],
                     delay: "natural",
                     deleteSpeed: "natural",
                     loop: true,
