@@ -29,11 +29,37 @@ const About = () => {
             />
           </div> */}
           <div className="pt-4 pt-lg-0 content">
-            <p>
+            <p className="intro-desc">
               Building web applications with API servers (microservices), user interface, cloud deployment and CI / CD.
-              I have advanced proficiency in <span className="green-highlight">Java(SpringBoot), Terraform, GCS, RectJS, HTML, CSS, Angular2-8,
+              I have advanced proficiency in <span className="green-highlight">Java(SpringBoot), RectJS, HTML, CSS, Angular2-8,
               Typescript, NodeJS, ES6</span>. I also have a solid foundation in cloud
-              application like <span className="green-highlight">AWS cloudfront, AWS S3, Firebase, etc</span>.
+              application like <span className="green-highlight">Terraform, GCP, AWS, Firebase</span>.
+              <br/><br/>
+              AI Tools:
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://www.cursor.com/" target="__blank">Cursor</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://cline.bot/" target="__blank">Cline</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://copilot.microsoft.com/" target="__blank">CoPilot</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://openai.com/index/chatgpt/" target="__blank">ChatGPT</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://www.perplexity.ai/" target="__blank">Perplexity</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://ollama.com/" target="__blank">Ollama (For locally hosted LLM models and training)</a>, 
+              </span>
+              <span className="green-highlight">
+                <a className="ai-tool-link" href="https://streamlit.io/" target="__blank">StreamLit</a>
+              </span>
+            </p>
+            <p>
+              
             </p>
             <div className="row">
               <div className="col-lg-6">

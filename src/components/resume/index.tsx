@@ -14,7 +14,7 @@ const Resume = () => {
             <h3 className="timeline-title">Summary</h3>
             <div className="timeline-item pb-0">
               <h4>Vishesh M</h4>
-              <p><em>Innovative and deadline-driven Web Developer with 6+ years of experience developing applications from initial concept to final, polished deliverable.</em></p>
+              <p><em>Innovative and deadline-driven Web Developer with 8+ years of experience developing applications from initial concept to final, polished deliverable.</em></p>
               <ul>
                 <li>Chennai, Tamil Nadu, Chennai - 600122</li>
                 <li>visheshvvvm@gmail.com</li>
@@ -37,7 +37,7 @@ const Resume = () => {
               <h5>2022 - Present</h5>
               <ul>
                 <li>Working as FullStack dev in Java SpringBoot, Terraform, GCP, JavaScript, TypeScript, React, NodeJs, ionic, etc.</li>
-                <li>Develop and deploy to the latest cloud platforms with CI/CD such as GCP, AWS CloudFront, GIT, Jenkins.</li>
+                <li>Develop and deploy to the latest cloud platforms with CI/CD such as GCP, AWS, GIT, Jenkins.</li>
                 <li>Mentoring team with 5-6 members on a new healthcare start up.</li>
               </ul>
             </div>
@@ -47,7 +47,7 @@ const Resume = () => {
               <h5>2017 - 2022</h5>
               <ul>
                 <li>Worked with a variety of different languages, frameworks, and content management systems such as JavaScript, TypeScript, React, NodeJs, etc.</li>
-                <li>Develop and deploy to the latest cloud platforms with CI/CD such as AWS CloudFront, GIT, EC2, Firebase, etc.</li>
+                <li>Develop and deploy to the latest cloud platforms with CI/CD such as AWS, GIT, EC2, Firebase, etc.</li>
                 <li>Communicate and collaborate with multi-disciplinary teams of engineers, designers, producers, clients, and stakeholders on a daily basis.</li>
                 <li>Oversee the efficient use of production projects. Lead teams with 5-6 members on overseas projects.</li>
               </ul>

@@ -1,6 +1,17 @@
 export const WorkedProjectData = [
     {
-        "name": "Leading loyalty & payment system | Germany **",
+        "name": "E-Commerse and warehouse management | Germany **",
+        "description": "This is a Germany based ECommerse company. We focused on developing a phlatform for placing orders in multiple warehouses that were clients for the company.",
+        "image": "",
+        "tags": [ "Java (SpringBoot)", "Microservices", "Terraform", "GCP DevOps" ],
+        "highlights": [
+            "Learning and creating a new <b>SpringBoot</b> application along with <b>Kotlin + Terraform + GCP</b>(Used to cerate cloud resources)",
+            "Owning Epics and user stories in the project",
+            "Learna nd implement <b>co-rotines</b>. Build on event sriven design and development with <b>GCP PubSub + GCP cloud runs</b>"
+        ]
+    },
+    {
+        "name": "Loyalty & payment system | Germany",
         "description": "This is a Germany based loyalty and payment system. Users can pay bills via the system and gain access to offers and coupons of nearby stores. This is the Germay's largest system.",
         "image": "",
         "tags": [ "Java (SpringBoot)", "Microservices", "Terraform", "GCP DevOps" ],
@@ -12,7 +23,7 @@ export const WorkedProjectData = [
     },
     {
         "name": "Fintech | India",
-        "description": "This is a Germany based loyalty and payment system. Users can pay bills via the system and gain access to offers and coupons of nearby stores. This is the Germay's largest system.",
+        "description": "This is a India based payment systems. Banks can setup UPI payments and core banking apps in hours. Rather than months with large developing teams.",
         "image": "",
         "tags": [ "Java (SpringBoot)", "Microservices", "Terraform", "GCP DevOps" ],
         "highlights": [

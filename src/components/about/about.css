@@ -71,3 +71,14 @@
 .my-profile-img {
   text-align: center;
 }
+
+.intro-desc .ai-tool-link{
+  padding-left: 5px;
+}
+
+.green-highlight a{
+  color: #2ed070;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
